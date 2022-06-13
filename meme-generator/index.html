@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <section class="input">
+        <input type="text" name="phrase" id="text-input" maxlength="60">
+        <input type="file" accept="image/*" name="photo" id="meme-insert">
+    </section>
+    <section id="meme-image-container" class="default-border">
+        <img src="imgs/meme1.png" id="meme-image">
+        <p id="meme-text"></p>
+    </section>
+    <section class="btn-section">
+        <button id="fire" class="fire">Fire!</button>
+        <button id="water" class="water">Water!</button>
+        <button id="earth" class="earth">Earth!</button>
+    </section>
+    <section class="presets-img">
+        <img src="imgs/meme1.png" alt="Sapo" id="meme-1">
+        <img src="imgs/meme2.png" alt="Laranjo" id="meme-2">
+        <img src="imgs/meme3.png" alt="Careta" id="meme-3">
+        <img src="imgs/meme4.png" alt="Gato triste" id="meme-4">
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
