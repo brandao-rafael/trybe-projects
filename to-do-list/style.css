@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+section {
+    margin-top: 25px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+header {
+    background-color: red;
+    padding: 25px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+input {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.completed {
+    text-decoration: line-through solid black;
+}
