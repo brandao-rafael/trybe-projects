@@ -1,3 +1,3 @@
-# Repositório trybe-projects
+# trybe-projects
 
-Repositório destinado a projetos Trybe
+Repositório destinado aos projetos desenvolvidos durante meu periodo de aprendizado na Trybe
