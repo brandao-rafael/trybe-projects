@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: formula1display-regular;
+  font-style: normal;
+  font-weight: 600;
+  src: url('formula1-regular-webfont.woff2') format('woff2') , url('formula1-regular-webfont.woff') format('woff');
+}
+
+body {
+  background-image: url('https://i.pinimg.com/736x/45/3b/e7/453be7bf305ba1db8a5af5df8134bd27.jpg');
+  background-size: contain;
+  font-family: formula1display-regular , sans-serif;
+  font-weight: 300;
+}
+
+:root {
+
+  --gray: rgb(202, 202, 202);
+
+}
+
+h1 {
+  color: red;
+  font-weight: 600;
+  margin: 25px;
+  text-align: center;
+}
+
+.form-preview-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.form-container, .card-item {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  padding: 35px;
+  width: 40%;
+}
+
+.card-item {
+  background-image: url('https://t3.ftcdn.net/jpg/02/92/98/50/360_F_292985011_cNlrkDHiiwOkmHk4FeAVWrLuXcaBAbwc.jpg');
+  background-position: center;
+}
+
+.form-container label {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.image {
+  border: solid 1px black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  max-width: 450px;
+}
+
+.saved-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.saved-container .card-item {
+  width: 100%;
+}
+
+.saved-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  width: 30%;
+}
+
+.filter-items {
+  align-items: center;
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  padding: 25px;
+  width: 90%;
+}
+
+input {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.card-description {
+  font-size: 12px;
+}
+
+.card-description-container {
+  background-color: var(--gray);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.card-description-container p {
+  margin: auto 5px;
+}
+
+.atr-item {
+  background-color: var(--gray);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.atr-item p {
+  margin: auto 5px;
+}
+
+.super-trunfo {
+  background-color: red;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+}

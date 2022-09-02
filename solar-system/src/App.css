@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://i.imgur.com/yXBCgXm.jpg');
+  background-size: cover;
+}
+
+:root {
+
+  --dark: rgba(0, 0, 0, 0.5);
+  --light-blue: rgb(209, 209, 253); 
+  --shadow: 3px 3px 4px black;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: var(--dark);
+  color: var(--light-blue);
+  margin-bottom: 35px;
+  padding: 15px;
+  text-align: center;
+  text-shadow: var(--shadow);
+}
+
+.planets-img {
+  transition: all 300ms ease-in-out;
+  width: 100px;
+}
+
+.planets-img:hover {
+  transition: all 300ms ease-in-out;
+  width: 200px;
+}
+
+.planet-container, .missions {
+  background-color: var(--dark);
+  border: 1px solid var(--dark);
+  border-radius: 5px;
+  box-shadow: 2px 6px 2px 4px rgba(0, 0, 0, 0.404);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  text-align: center;
+}
+
+.planet-container p {
+  color: var(--light-blue);
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-shadow: var(--shadow);
+}
+
+.planet-container h2, .missions h2 {
+  border: 1px solid var(--dark);
+  border-radius: 5px 5px 0 0;
+  color: var(--light-blue);
+  flex: 1 0 100%;
+  font-size: 35px;
+  margin-bottom: 25px;
+  padding: 15px;
+  text-shadow: var(--shadow);
+}
+
+.mission-card {
+  border: 1px solid var(--light-blue);
+  border-radius: 5px;
+  color: var(--light-blue);
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  transition: all 500ms ease-in-out;
+}
+
+.mission-card:hover {
+  background-color: var(--dark);
+  font-size: 22px;
+  transition: all 500ms ease-in-out;
+}
