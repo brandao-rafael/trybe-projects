@@ -1,5 +1,6 @@
 body {
   background-image: url('./assets/imgs/background.png');
+  background-size: auto;
   box-sizing: border-box;
   color: white;
   font-family: Courier New , Courier , monospace;
@@ -109,4 +110,32 @@ body {
 
 .home-ranking-btn button {
   width: 150px;
+}
+
+@media screen and ( max-width : 400px ) {
+
+  .question-container {
+    margin: auto;
+    width: 90%;
+  }
+
+  .answer-options {
+    flex-direction: column;
+  }
+
+  .ranking-container {
+    flex-wrap: wrap;
+  }
+
+  .home-ranking-btn {
+    margin-bottom: 15px;
+  }
+
+  .fieldset-container label {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+  }
+
 }
