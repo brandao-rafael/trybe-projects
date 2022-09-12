@@ -1,0 +1,112 @@
+body {
+  background-image: url('./assets/imgs/background.png');
+  box-sizing: border-box;
+  color: white;
+  font-family: Courier New , Courier , monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.fieldset-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+.fieldset-container input {
+  margin: 0 10px;
+}
+
+.setting-button {
+  display: none;
+}
+
+.trivia-logo {
+  margin-top: 25px;
+  width: 100px;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+}
+
+.game button {
+  margin: 10px;
+}
+
+.game p {
+  margin: 15px 0;
+}
+
+.header-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.header-profile-pic {
+  border-radius: 3px;
+  width: 50px;
+}
+
+.question-container, .feedback-container, .ranking-container, .login-form {
+  background-color: rgba(93, 35, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 7px 29px 0;
+  margin: 50px;
+  padding: 25px;
+}
+
+.login-form {
+  margin: auto;
+  padding: auto;
+  width: 80%;
+}
+
+.answer-options {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+.feedback-container {
+  padding: 35px;
+}
+
+.feedback-container button {
+  margin: 15px 0;
+  margin-right: 15px;
+}
+
+.ranking-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.personal-card {
+  text-align: center;
+}
+
+.personal-card img {
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0 7px 29px 0;
+}
+
+.ranking-title {
+  margin: 35px;
+  text-align: center;
+}
+
+.home-ranking-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-ranking-btn button {
+  width: 150px;
+}
