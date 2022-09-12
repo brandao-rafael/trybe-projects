@@ -200,7 +200,7 @@ class Game extends Component {
                 data-testid="btn-next"
                 className="btn btn-outline-warning"
               >
-                Próxima
+                Next
               </button>
             )}
           </div>

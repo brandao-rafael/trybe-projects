@@ -17,7 +17,7 @@ class Header extends Component {
         />
         <h3 data-testid="header-player-name">{name}</h3>
         <p data-testid="header-score">
-          <span>Pontos: </span>
+          <span>Points: </span>
           {score}
         </p>
       </div>

@@ -65,7 +65,7 @@ class Login extends Component {
         <form action="#" className="form-control login-form">
           <fieldset className="input-group mb-3 fieldset-container">
             <label htmlFor="nameInput" className="input-group-text">
-              Nome:
+              Name:
               <input
                 type="text"
                 id="nameInput"

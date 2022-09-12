@@ -22,7 +22,7 @@ class Feedback extends Component {
             <h3 data-testid="feedback-text">Could be better...</h3>
           )}
           <h3 data-testid="feedback-total-question">
-            <span>Questions: </span>
+            <span>Assertions: </span>
             {assertions}
           </h3>
           <button
@@ -35,7 +35,7 @@ class Feedback extends Component {
             } }
             className="btn btn-success"
           >
-            Jogar novamente
+            Play Again
           </button>
           <button
             type="button"
